@@ -8,87 +8,152 @@
 </head>
 <body>
     <header class="init">
-
     </header>
+    <div class="instructions">
+        <p>
+            Gire las cartas para observar un posible problema o respuesta. Cuando gires el problema y su respuesta secuencialemente, se mostrara una pequeña explicación de la estructura de control u operador utilizado.
+            Los problemas presentes son pequeños fragmentos de codigo del cual se debera analizar lo que este desplegaria en consola.
+        </p>
+    </div>
     <main class="content">
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p> num = 8; <br>
+                    if (num >= 8){ <br>
+                        printf("4");<br>
+                    }else{<br>
+                        printf("8");<br>
+                    }
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>
+                    consola>> 4
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p> num = 11; <br>
+                    if (num > 8 && num < 10){ <br>
+                        printf("11");<br>
+                    } else if (num < 11){<br>
+                        printf("8");<br>
+                    } else{<br>
+                        printf("3");<br>
+                    }
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>
+                    consola>> 3
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>
+                    let = 'uno'; <br>
+                    switch (let){ <br>
+                        case 'uno': <br>
+                            printf('5'); <br>
+                            break; <br>
+                        case 'dos': <br>
+                            printf('20'); <br>
+                            break; <br>
+                        case '1': <br>
+                            printf('1'); <br>
+                            break; <br>
+                        default: <br>
+                            printf('4'); <br>
+                    }
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>consola>> 5</p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p> num = 11; <br>
+                    if (num < 4 || num > 10){ <br>
+                        printf("11");<br>
+                    } else if (num < 11){<br>
+                        printf("8");<br>
+                    } else{<br>
+                        printf("3");<br>
+                    }
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>
+                    consola>> 11
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>
+                    let = 8; <br>
+                    switch (let){ <br>
+                        case 7: <br>
+                            printf('5'); <br>
+                            break; <br>
+                        case 9: <br>
+                            printf('20'); <br>
+                            break; <br>
+                        case 11: <br>
+                            printf('1'); <br>
+                            break; <br>
+                        default: <br>
+                            printf('0'); <br>
+                    }
+                </p>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flip')" >
             <div class="front">
-                <p>Contenido del frente de la tarjeta</p>
+                <p>Memorama Software</p>
             </div>
             <div class="back">
-                <p>Contenido del dorso de la tarjeta</p>
+                <p>
+                    consola>> 0
+                </p>
             </div>
         </div>
 
@@ -97,10 +162,53 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span id="closeModalButton">x</span>
-            <p>Este es el modal cuando las dos tarjetas sean correspondientes, mostrando su respectivo ejemplo </p>
+            <p> Las declaraciones if y else son estructuras de control fundamentales en la programación que permiten tomar decisiones en el código basadas en ciertas condiciones.<br>
+                La declaración if se utiliza para ejecutar un bloque de código si una condición específica es verdadera.<br>
+                La declaración else se utiliza junto con if para ejecutar un bloque de código si la condición en la declaración if es falsa<br>
+            </p>
+            <p>
+                <br>
+                if (condicion) {<br>
+                    // Bloque de código que se ejecuta si la condición es verdadera<br>
+                } else {<br>
+                    // Bloque de código que se ejecuta si la condición es falsa<br>
+                }
+            </p>
         </div>
     </div>
 
     <script src="./script.js"></script>
 </body>
 </html>
+
+<!-- num = 7; <br>
+                    s = 9; <br>
+                    switch (s){ <br>
+                        case 7: <br>
+                            if (num > 7){ <br>
+                                printf('5'); <br>
+                            } else{ <br>
+                                printf('6'); <br>
+                            } <br>
+                            break; <br>
+                        case 8: <br>
+                            if (num < 7){ <br>
+                                printf('2'); <br>
+                            } else{ <br>
+                                printf('4'); <br>
+                            } <br>
+                            break; <br>
+                        case 10: <br>
+                            if (num == 7){ <br>
+                                printf('1'); <br>
+                            } else{ <br>
+                                printf('3'); <br>
+                            } <br>
+                            break; <br>
+                        default: <br>
+                            if (num > 6 && num < 8){ <br>
+                                printf('0'); <br>
+                            } else{ <br>
+                                printf('8'); <br>
+                            } <br>
+                    } -->
