@@ -16,7 +16,7 @@
         </p>
     </div>
     <main class="content">
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card1" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -30,7 +30,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card1" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -40,7 +40,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card2" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -56,7 +56,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card2" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -66,7 +66,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card3" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -89,7 +89,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card3" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -97,7 +97,7 @@
                 <p>consola>> 5</p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card4" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -113,7 +113,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card4" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -123,7 +123,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card5" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -146,7 +146,7 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="this.classList.toggle('flip')" >
+        <div class="card" data-framework="card5" onclick="flipCard(this)" >
             <div class="front">
                 <p>Memorama Software</p>
             </div>
@@ -158,7 +158,6 @@
         </div>
 
     </main>
-    <button id="openModalButton">Este boton no see mostrara</button>
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span id="closeModalButton">x</span>
