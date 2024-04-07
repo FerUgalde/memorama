@@ -31,10 +31,6 @@ function matchVerify() {
     }, 1000);
   }
 }
-
-function showModal() {
-  modal.style.display = "block";
-}
 // Obtén el modal
 var modal = document.getElementById("myModal");
 // Obtén el elemento <span> que cierra el modal
@@ -43,6 +39,29 @@ var span = document.getElementById("closeModalButton");
 span.onclick = function () {
   modal.style.display = "none";
 };
+var cardContents = {
+  'card4': 'Este es el contenido para el par card4.',
+  'card5': 'Este es el contenido para el par card5.',
+
+};
+
+function showModal() {
+
+  var lastPair = matches[matches.length - 1];
+  console.log(lastPair);
+
+  var content = cardContents[lastPair];
+
+  if (!content) {
+    content = 'Contenido por defecto';
+  }
+
+  var modalContent = document.querySelector('.modal-content p');
+  modalContent.textContent = content;
+
+  modal.style.display = "block";
+}
+
 
 // Cuando el usuario haga clic en cualquier lugar fuera del modal, ciérralo
 window.onclick = function (event) {
@@ -58,3 +77,11 @@ window.onclick = function (event) {
 // btn.onclick = function () {
 //   modal.style.display = "block";
 // };
+window.onload = function() {
+  let cards = Array.from(document.querySelectorAll('.card'));
+  let content = document.querySelector('.content');
+
+  cards.sort(() => Math.random() - 0.5);
+
+  cards.forEach(card => content.appendChild(card));
+};
