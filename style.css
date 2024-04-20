@@ -1,3 +1,29 @@
+/*Fuentes*/
+@font-face {
+  font-family: "title";
+  src: url("/fonts/brigendsexpanded-nrek1.otf");
+}
+@font-face {
+  font-family: "instructions";
+  src: url("/fonts/ProggyCleanSZBP.ttf");
+}
+h1 {
+  font-family: "title";
+  color: #00ff00;
+  font-size: 5rem;
+  margin: 2rem 0 0 7rem;
+}
+.instructions p {
+  text-indent: 2rem;
+  font-family: "instructions";
+  color: #00ff00;
+  font-size: 2rem;
+  width: 40%;
+  text-align: justify;
+  margin: 0 0 2rem 7rem;
+  font-weight: 500;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +31,10 @@
 html {
   font-size: 62.5%;
 }
-.init {
-  height: 8vh;
-  margin-bottom: 2vh;
-  background-color: bisque;
+body {
+  background-image: url("/img/background.png");
+  background-size: cover;
+  background-position: center;
 }
 .content {
   display: grid;
@@ -16,12 +42,13 @@ html {
   align-items: center;
   column-gap: 4rem;
   row-gap: 2rem;
-  height: 80vh;
+  height: 70vh;
   width: 90%;
   margin: 0 auto;
 }
 .card {
-  height: 100%;
+  width: 216px;
+  height: 300px;
   position: relative;
   perspective: 1000px;
   cursor: pointer;
@@ -34,6 +61,7 @@ html {
   position: absolute;
   backface-visibility: hidden;
   transition: transform 0.6s;
+  border-radius: 20px;
 }
 
 .front {
@@ -79,8 +107,9 @@ html {
   border: 1px solid #888;
   border-radius: 2rem;
   width: 80%;
-  height: 28rem;
+  height: auto;
   font-size: 1.6rem;
+  margin-top: 15rem;
 }
 #closeModalButton {
   display: flex;
@@ -100,4 +129,103 @@ html {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+/*Imagenes*/
+img {
+  max-width: 100%;
+}
+
+.front {
+  background-image: url("/img/card_back.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card1a .back {
+  background-image: url("/img/card_01_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card1b .back {
+  background-image: url("/img/card_01_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card2a .back {
+  background-image: url("/img/card_02_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card2b .back {
+  background-image: url("/img/card_02_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card3a .back {
+  background-image: url("/img/card_03_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card3b .back {
+  background-image: url("/img/card_03_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card4a .back {
+  background-image: url("/img/card_04_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card4b .back {
+  background-image: url("/img/card_04_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card5a .back {
+  background-image: url("/img/card_05_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card5b .back {
+  background-image: url("/img/card_05_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-content {
+  background-image: url("/img/modal.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-content p {
+  color: #00ff00;
+  font-family: "instructions";
+  font-size: 2.5rem;
+  text-align: justify;
+  margin: 0 0 2rem 7rem;
+  font-weight: 500;
+  width: 50%;
+}
+
+#closeModalButton {
+  color: white;
+  font-size: 2rem;
+  font-family: "title";
+}
+
+.win {
+  font-size: 5rem;
+  font-family: "title";
+  text-align: left;
 }
