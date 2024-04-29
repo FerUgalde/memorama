@@ -1,11 +1,11 @@
 /*Fuentes*/
 @font-face {
   font-family: "title";
-  src: url("/fonts/brigendsexpanded-nrek1.otf");
+  src: url("./fonts/brigendsexpanded-nrek1.otf");
 }
 @font-face {
   font-family: "instructions";
-  src: url("/fonts/ProggyCleanSZBP.ttf");
+  src: url("./fonts/ProggyCleanSZBP.ttf");
 }
 h1 {
   font-family: "title";
@@ -40,7 +40,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-image: url("/img/background.png");
+  background-image: url("./img/background.png");
   background-size: cover;
   background-position: center;
 }
@@ -146,73 +146,73 @@ img {
 }
 
 .front {
-  background-image: url("/img/card_back.png");
+  background-image: url("./img/card_back.png");
   background-size: cover;
   background-position: center;
 }
 
 .card1a .back {
-  background-image: url("/img/card_01_1.png");
+  background-image: url("./img/card_01_1.png");
   background-size: cover;
   background-position: center;
 }
 
 .card1b .back {
-  background-image: url("/img/card_01_2.png");
+  background-image: url("./img/card_01_2.png");
   background-size: cover;
   background-position: center;
 }
 
 .card2a .back {
-  background-image: url("/img/card_02_1.png");
+  background-image: url("./img/card_02_1.png");
   background-size: cover;
   background-position: center;
 }
 
 .card2b .back {
-  background-image: url("/img/card_02_2.png");
+  background-image: url("./img/card_02_2.png");
   background-size: cover;
   background-position: center;
 }
 
 .card3a .back {
-  background-image: url("/img/card_03_1.png");
+  background-image: url("./img/card_03_1.png");
   background-size: cover;
   background-position: center;
 }
 
 .card3b .back {
-  background-image: url("/img/card_03_2.png");
+  background-image: url("./img/card_03_2.png");
   background-size: cover;
   background-position: center;
 }
 
 .card4a .back {
-  background-image: url("/img/card_04_1.png");
+  background-image: url("./img/card_04_1.png");
   background-size: cover;
   background-position: center;
 }
 
 .card4b .back {
-  background-image: url("/img/card_04_2.png");
+  background-image: url("./img/card_04_2.png");
   background-size: cover;
   background-position: center;
 }
 
 .card5a .back {
-  background-image: url("/img/card_05_1.png");
+  background-image: url("./img/card_05_1.png");
   background-size: cover;
   background-position: center;
 }
 
 .card5b .back {
-  background-image: url("/img/card_05_2.png");
+  background-image: url("./img/card_05_2.png");
   background-size: cover;
   background-position: center;
 }
 
 .modal-content {
-  background-image: url("/img/modal.jpg");
+  background-image: url("./img/modal.jpg");
   background-size: cover;
   background-position: center;
 }
