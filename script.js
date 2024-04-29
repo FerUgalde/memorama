@@ -35,7 +35,10 @@ function matchVerify() {
         modalContent.innerHTML = content;
 
         modal.style.display = "block";
-      }, 10000);
+      }, 5000);
+      setTimeout(() => {
+        window.location.reload();
+      }, 3000);
     }
   } else {
     console.log("Nope");

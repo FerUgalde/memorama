@@ -13,14 +13,22 @@ h1 {
   font-size: 5rem;
   margin: 2rem 0 0 7rem;
 }
+.title-instructions {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  flex: 1;
+}
 .instructions p {
+  flex: 1.5;
   text-indent: 2rem;
   font-family: "instructions";
   color: #00ff00;
   font-size: 2rem;
   width: 40%;
   text-align: justify;
-  margin: 0 0 2rem 7rem;
+  margin: 2rem 10rem 2rem 7rem;
   font-weight: 500;
 }
 
@@ -115,6 +123,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .close {
